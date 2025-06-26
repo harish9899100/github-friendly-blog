@@ -5,6 +5,7 @@
     "moduleResolution": "Bundler",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": true,
     "jsx": "react-jsx",
     "types": ["vite/client"]
   }
