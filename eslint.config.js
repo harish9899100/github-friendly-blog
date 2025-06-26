@@ -3,6 +3,9 @@ import globals from "globals";
 import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
 import tseslint from "typescript-eslint";
+import BlogPost from '@/components/BlogPost';
+import SearchBar from '@/components/SearchBar';
+import FeaturedPost from '@/components/FeaturedPost';
 
 export default tseslint.config(
   { ignores: ["dist"] },
