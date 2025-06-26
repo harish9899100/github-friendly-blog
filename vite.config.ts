@@ -9,7 +9,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 export default defineConfig({
-  base: '/github-friendly-blog/', // 👈 ADD THIS LINE (your repo name)
+  base: '/github-friendly-blog/github-friendly-blog', // 👈 ADD THIS LINE (your repo name)
   plugins: [react()],
   resolve: {
     alias: {
